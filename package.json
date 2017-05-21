@@ -1,0 +1,36 @@
+{
+  "name": "react-redux-boilerplate",
+  "version": "0.0.1",
+  "description": "react, redux, webpack boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmil/react-redux-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "author": "lexmil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lexmil/react-redux-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lexmil/react-redux-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.15.3",
+    "redux-thunk": "^2.2.0"
+  }
+}
